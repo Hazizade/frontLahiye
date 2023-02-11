@@ -11,7 +11,7 @@
 
 .place_items {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
     color: #726E8A;
     margin-left: 100px;
@@ -24,6 +24,76 @@
     color: #556BB3;
     margin-right: 10px;
 }
-.message{
+
+.message {
     margin-left: 550px;
+}
+
+.navbar {
+    border: 2px solid green;
+    height: 80px;
+    width: 100%;
+}
+
+.dent_image {
+    background-image: url(./image/loogo.png);
+    width: 124px;
+    height: 37px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.items {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 800px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    height: 2100px;
+    width: 100%;
+    border: 2px solid red;
+
+}
+
+
+.back_image {
+    background-image: url(./image/ff013f9b-f152-4eee-8913-370518a091b5.jpg);
+    width: 100%;
+    height: 690px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.women_image {
+    width: 800px;
+    height: 700px;
+    background-image: url(./image/women.png);
+    position: absolute;
+    right: 5px;
+}
+
+.words {
+    border: 2px solid black;
+    height: 650px;
+    width: 700px;
+    
+
+}
+.p1{
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: bold;
+    
+}
+.p2{
+    
 }
